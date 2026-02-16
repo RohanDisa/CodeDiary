@@ -1,0 +1,20 @@
+{
+  "name": "pr-memory",
+  "version": "1.0.0",
+  "description": "Capture merged PRs from GitHub as raw JSON snapshots",
+  "main": "src/scripts/sync.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/scripts/sync.js",
+    "sync": "node src/scripts/sync.js",
+    "dev": "node --watch src/scripts/sync.js",
+    "export:llm": "node src/scripts/export-llm-payloads.js"
+  },
+  "dependencies": {
+    "@google/genai": "^1.40.0",
+    "@notionhq/client": "^5.9.0",
+    "@octokit/rest": "^20.0.2",
+    "@toon-format/toon": "^2.1.0",
+    "dotenv": "^16.6.1"
+  }
+}
