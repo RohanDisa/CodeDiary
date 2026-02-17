@@ -1,4 +1,4 @@
-# PR Memory
+# CodeDiary
 
 Fetch your **merged** PRs from GitHub, summarize with Gemini, and write directly to Notion. 
 
@@ -69,4 +69,3 @@ Ideas for enhancements:
 - **Repo selector** – Checklist of your repositories so you can choose which ones to fetch instead of pulling everything (helps avoid API rate limits).
 - **Date range picker** – Filter PRs by time window, e.g. "last 3 months" or custom range.
 - **Prompt tuner** – Edit the Gemini system prompt before running summaries (e.g. "Make summaries sound like a Senior Architect").
-- **Tags & line-matching** – Tags for PRs, better line-matching for comment hunks.
