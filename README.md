@@ -1,4 +1,4 @@
-# CodeDiary
+# DevLedger
 
 Fetch your **merged** PRs from GitHub, summarize with Gemini, and write directly to Notion. 
 
